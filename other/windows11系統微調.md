@@ -11,11 +11,33 @@ date: 2023-11-24
 > 真正有重大變革應該放在 Windows 12 上，因為可以預期的加上大量 AI 運用，倒是可以期待。
 <br />
 
-* <a id="top"></a>Windows 11 密技及系統微調
-  * [Windows 11 安裝時建立「本機帳號」](#local_account)
-  * [變更 Windows 預設輸入法](#IME)
-  * [舊電腦安裝 Windows 11 略過「TPM 2.0 及 Secure Boot」](#TPM)
-  * [登入「Administrator 帳戶」](#admin_account)
+## <a id="top"></a>Windows 11 密技及系統微調
+1. [Windows 11 安裝時建立「本機帳號」](#local_account)
+2. [變更 Windows 預設輸入法](#IME)
+3. [安裝 Windows 11 略過「TPM 2.0 及 Secure Boot」](#TPM)
+4. [登入「Administrator 帳戶」](#admin_account)
+5. [解除「本機帳號」密碼設置](#account_password)
+6. [關閉「UAC 功能」](#UAC)
+7. [安裝「Net Framework 3.5」](#framework35)
+8. [Windows 11 啟動「安全模式」](#safemode)
+9. [滑鼠右鍵回復為「傳統右鍵表單選項」](#rightclick_original)
+10. [隱藏「檔案總管」本機「下載」](#hide_download)
+11. [隱藏「檔案總管」本機「文件」](#hide_document)
+12. [隱藏「檔案總管」本機「音樂」](#hide_music)
+13. [隱藏「檔案總管」本機「桌面」](#hide_desktop)
+14. [隱藏「檔案總管」本機「圖片」](#hide_picture)
+15. [隱藏「檔案總管」本機「影片」](#hide_movie)
+16. [隱藏「檔案總管」目錄欄中的「常用」](#quick_access)
+17. [隱藏「檔案總管」目錄欄中的「OneDrive」](#hide_onedrive)
+18. [隱藏「檔案總管」目錄欄中的「網路」](#hide_network)
+19. [開始面板下方「電源開關」旁加入「設定、檔案總管」的捷徑](#powerkey_shortcut)
+20. [關閉工具列的預覽功能](#close_thumbnail)
+21. [關閉自動更新](#close_update)
+22. [移除或關閉 Windows Defender](#close_defender)
+23. [關閉「Windows 安全性通知」](#close_safenotify)
+24. [隱藏工作列右邊的「通知圖示」](#close_notifyicon)
+25. [關閉「自動播放」](#close_autoplay)
+26. [啟動「沙盒 SandBox」功能](#sandbox)
 <br />
 
 ## <a id="local_account"></a>Windows 11 安裝時建立「本機帳號」
@@ -24,7 +46,7 @@ date: 2023-11-24
 2. 一樣安裝到「讓我們將您連線到網路」畫面時，就會有「我沒有網際網路 I don't have internet」選項，點選「進行有限的安裝 Continue with limited setup」。
 3. 之後就可以建立「本機帳戶」。
    
-   [回最上層目錄](#top)
+   [[回最上層目錄]](#top)
 <br />
 
 ## <a id="IME"></a>變更 Windows 預設輸入法
@@ -37,14 +59,14 @@ date: 2023-11-24
 5. 點擊「輸入與鍵盤設定」→ 「進階鍵盤設定」「覆寫預設輸入法」選擇「英文(美國)-US」。
 6. 重新開機即可完成設定。
 
-   [回最上層目錄](#top)
+   [[回最上層目錄]](#top)
 <br />
 
-## <a id="TPM"></a>舊電腦安裝 Windows 11 略過「TPM 2.0 及 Secure Boot」
+## <a id="TPM"></a>安裝 Windows 11 略過「TPM 2.0 及 Secure Boot」
 
 * 使用 [Rufus - 輕鬆製作可開機的USB 磁碟機](https://rufus.ie/zh_TW/)，製作可開機 USB，有進階選單可選。
 
-   [回最上層目錄](#top)
+   [[回最上層目錄]](#top)
 <br />
 
 ## <a id="admin_account"></a>登入「Administrator 帳戶」
@@ -53,21 +75,25 @@ date: 2023-11-24
 3. 跳出「Administrator 內容」對話盒，取消勾選「帳戶已停用」，按確定。
 4. 切換使用者時「Administrator 帳戶」就會出現了。
 
-   [回最上層目錄](#top)
+   [[回最上層目錄]](#top)
 <br />
 
-## 解除「本機帳號」密碼設置
+## <a id="account_password"></a>解除「本機帳號」密碼設置
 1. 「設定」→「帳戶」→「登入選項」→「密碼」→「變更」。
 2. 畫面「輸入目前密碼」，若沒有則維持空白。
 3. 畫面「變更您的密碼」，保持空白不要輸入，下一步，這就是解除密碼。
 4. 同理如果您要變更新的密碼，就是在這邊輸入新的密碼。
+
+   [[回最上層目錄]](#top)
 <br />
 
-## 關閉「UAC 功能」
+## <a id="UAC"></a>關閉「UAC 功能」
 * 「控制台」→「使用者帳戶」→「變更使用者帳戶控制設定」，將拉桿拉到最下面。
+
+   [[回最上層目錄]](#top)
 <br />
 
-## 安裝「Net Framework 3.5」
+## <a id="framework35"></a>安裝「Net Framework 3.5」
 1. 掛載 Windows 11 的安裝 ISO 檔案，假設掛載於 「G：」。
 2. 以「系統管理員身份執行」開啟「命令提示字元」，輸入以下命令並執行。
 
@@ -77,15 +103,19 @@ date: 2023-11-24
    
 3. 在「開始」→「設定」→「應用程式」→「選用功能」→「更多選用功能」。
 4. 確認「Net Framework 3.5」是否已經勾選。
+
+   [[回最上層目錄]](#top)
 <br />
 
-## Windows 11 如何啟動「安全模式」
+## <a id="safemode"></a>Windows 11 啟動「安全模式」
 1. 按住「Shift」鍵不放，再點「開始」→「電源」→「重新啟動」。
 2. 出現「選擇選項」→「疑難排解」→「進階選項」→「啟動設定」→「重新啟動」。
 3. 重新開機到「啟動設定」頁面，選「啟用安全模式」。
+
+   [[回最上層目錄]](#top)
 <br />
 
-## 滑鼠右鍵回復為「傳統右鍵表單選項」
+## <a id="rightclick_original"></a>滑鼠右鍵回復為「傳統右鍵表單選項」
 1. 以「系統管理員身份執行」開啟「命令提示字元」，輸入以下命令並執行。
 
    ```Shell
@@ -100,22 +130,11 @@ date: 2023-11-24
    ```
    
    重新開機。
+
+   [[回最上層目錄]](#top)
 <br />
 
-## 隱藏「檔案總管」目錄欄上的「常用」Quick Access
-1. 「Win鍵 + R」輸入「regedit」開啟「登錄檔編輯程式」，找到下列登錄碼。
-
-   ```Shell
-   HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer
-   ```
-
-2. 在右邊面板，按「滑鼠右鍵」→「新增」→「DWORD (32-bit) 值」。
-3. 「數值名稱」鍵入「HubMode」。
-4. 「數值資料」填入「1」。
-5. 「底數」點選「十六進位」。
-<br />
-
-## 隱藏「檔案總管」本機「下載」
+## <a id="hide_download"></a>隱藏「檔案總管」本機「下載」
 1. 「Win鍵 + R」輸入「regedit」開啟「登錄檔編輯程式」，找到下列登錄碼。
 
    ```Shell
@@ -123,9 +142,11 @@ date: 2023-11-24
    ```
 
 2. 將「ThisPCPolicy」的「字串」改為「Hide」，預設是「Show」。
+
+   [[回最上層目錄]](#top)
 <br />
 
-## 隱藏「檔案總管」本機「文件」
+## <a id="hide_document"></a>隱藏「檔案總管」本機「文件」
 1. 「Win鍵 + R」輸入「regedit」開啟「登錄檔編輯程式」，找到下列登錄碼。
 
    ```Shell
@@ -133,9 +154,11 @@ date: 2023-11-24
    ```
 
 2. 將「ThisPCPolicy」的「字串」改為「Hide」，預設是「Show」。
+
+   [[回最上層目錄]](#top)
 <br />
 
-## 隱藏「檔案總管」本機「音樂」
+## <a id="hide_music"></a>隱藏「檔案總管」本機「音樂」
 1. 「Win鍵 + R」輸入「regedit」開啟「登錄檔編輯程式」，找到下列登錄碼。
 
    ```Shell
@@ -143,9 +166,11 @@ date: 2023-11-24
    ```
 
 2. 將「ThisPCPolicy」的「字串」改為「Hide」，預設是「Show」。
+
+   [[回最上層目錄]](#top)
 <br />
 
-## 隱藏「檔案總管」本機「桌面」
+## <a id="hide_desktop"></a>隱藏「檔案總管」本機「桌面」
 1. 「Win鍵 + R」輸入「regedit」開啟「登錄檔編輯程式」，找到下列登錄碼。
 
    ```Shell
@@ -156,9 +181,11 @@ date: 2023-11-24
 3. 「數值名稱」輸入「ThisPCPolicy」。
 4. 「數值資料」鍵入「Hide」。
 5. Windows 11 Ver.22H2，預設是沒有這個字串的，必須手動新增。
+
+   [[回最上層目錄]](#top)
 <br />
 
-## 隱藏「檔案總管」本機「圖片」
+## <a id="hide_picture"></a>隱藏「檔案總管」本機「圖片」
 1. 「Win鍵 + R」輸入「regedit」開啟「登錄檔編輯程式」，找到下列登錄碼。
 
    ```Shell
@@ -166,9 +193,11 @@ date: 2023-11-24
    ```
 
 2. 將「ThisPCPolicy」的「字串」改為「Hide」，預設是「Show」。
+
+   [[回最上層目錄]](#top)
 <br />
 
-## 隱藏「檔案總管」本機「影片」
+## <a id="hide_movie"></a>隱藏「檔案總管」本機「影片」
 1. 「Win鍵 + R」輸入「regedit」開啟「登錄檔編輯程式」，找到下列登錄碼。
 
    ```Shell
@@ -176,19 +205,38 @@ date: 2023-11-24
    ```
 
 2. 將「ThisPCPolicy」的「字串」改為「Hide」，預設是「Show」。
+
+   [[回最上層目錄]](#top)
 <br />
 
-## 隱藏「檔案總管」目錄欄中的「OneDrive」
+## <a id="quick_access"></a>隱藏「檔案總管」目錄欄中的「常用」
+1. 「Win鍵 + R」輸入「regedit」開啟「登錄檔編輯程式」，找到下列登錄碼。
+
+   ```Shell
+   HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer
+   ```
+
+2. 在右邊面板，按「滑鼠右鍵」→「新增」→「DWORD (32-bit) 值」。
+3. 「數值名稱」鍵入「HubMode」。
+4. 「數值資料」填入「1」。
+5. 「底數」點選「十六進位」。
+
+   [[回最上層目錄]](#top)
+<br />
+
+## <a id="hide_onedrive"></a>隱藏「檔案總管」目錄欄中的「OneDrive」
 1. 「Win鍵 + R」輸入「regedit」開啟「登錄檔編輯程式」，找到下列登錄碼。
 
    ```Shell
    HKEY_CLASSES_ROOT\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}
    ```
 
-2. 修改「system.IsPinnedToNameSpaceTree」的值為 0 即可，預設值是 1。。
+2. 修改「system.IsPinnedToNameSpaceTree」的值為 0 即可，預設值是 1。
+
+   [[回最上層目錄]](#top)
 <br />
 
-## 隱藏「檔案總管」目錄欄中的「網路」
+## <a id="hide_network"></a>隱藏「檔案總管」目錄欄中的「網路」
 1. 「Win鍵 + R」輸入「regedit」開啟「登錄檔編輯程式」，找到下列登錄碼。
 
    ```Shell
@@ -200,14 +248,18 @@ date: 2023-11-24
 4. 「數值名稱」設為「System.IsPinnedToNameSpaceTree」。
 5. 「數值資料」設為「0」。
 6. 「底數」點選「十六進位」。
+
+   [[回最上層目錄]](#top)
 <br />
 
-## 開始面板的最下方「電源開關」旁邊，加入「設定、檔案總管」的捷徑
+## <a id="powerkey_shortcut"></a>開始面板下方「電源開關」旁加入「設定、檔案總管」的捷徑
 1. 「開始」→「設定」→「個人化」→「開始」→「資料夾 Folders」。
 2. 將要加入的捷徑，如「設定」或「檔案總管」設為「開啟」。
+
+   [[回最上層目錄]](#top)
 <br />
 
-## 關閉工具列的預覽功能
+## <a id="close_thumbnail"></a>關閉工具列的預覽功能
 1. 「Win鍵 + R」輸入「regedit」開啟「登錄檔編輯程式」，找到下列登錄碼。
 
    ```Shell
@@ -228,21 +280,27 @@ date: 2023-11-24
 8. 「數值名稱」設「NUMTHUBBNAILS」。
 9. 「數值資料」設為「0」。
 10. 「底數」點選「十六進位」。
+
+    [[回最上層目錄]](#top)
 <br />
 
-## 關閉自動更新
+## <a id="close_update"></a>關閉自動更新
 關閉自動更新使用第三方工具比較方便。
 1. [UH Auto Update Stopper Ver.1.2](https://unikoshardware.com/2021/12/uh-auto-update-stopper-v1-2.html)
 2. [Stop Updates Windows 10 Ver.3.7.2022.07.12](https://www.azofreeware.com/2018/04/stopupdates10.html?m=1)
+
+   [[回最上層目錄]](#top)
 <br />
 
-## 移除或關閉 Windows Defender
+## <a id="close_defender"></a>移除或關閉 Windows Defender
 1. [Defender Control Ver.2.1](https://www.sordum.org/9480/defender-control-v2-1/)
 2. [UH Auto Update Stopper Ver.1.2](https://unikoshardware.com/2021/12/uh-auto-update-stopper-v1-2.html)
 3. Windows Defender Remover Script Ver.10.3.0.0
+
+   [[回最上層目錄]](#top)
 <br />
 
-## 關閉「Windows 安全性通知」
+## <a id="close_safenotify"></a>關閉「Windows 安全性通知」
 1. 「開始」→「設定」→「系統」→「通知」照下列順序設定。
 2. 先將「設定」設為「關閉」。
 3. 「啟動應用程式通知」設為「關閉」。
@@ -254,22 +312,30 @@ date: 2023-11-24
 9. 「應用程式」下的每個「應用程式」，按右邊的「...」→「移除」。
 10. 「Win鍵 + R」輸入「gpedit.msc」開啟「本機群組原則編輯器」展開到「電腦設定→「系統管理範本」→「開始功能表和工作列」→「通知」。
 11. 將「關閉通知網路使用方式」設為「已啟用」。
+
+    [[回最上層目錄]](#top)
 <br />
 
-## 隱藏工作列右邊的「通知圖示」
+## <a id="close_notifyicon"></a>隱藏工作列右邊的「通知圖示」
 1. 「Win鍵 + R」輸入「gpedit.msc」開啟「本機群組原則編輯器」。
 2. 展開到「使用者設定」→「系統管理範本」→「開始功能表和工作列」。
 3. 將「移除通知與重要訊息中心」設為「已啟用」。
+
+   [[回最上層目錄]](#top)
 <br />
 
-## 關掉「自動播放」
+## <a id="close_autoplay"></a>關閉「自動播放」
 1. 「Win鍵 + R」輸入「gpedit.msc」開啟「本機群組原則編輯器」。
 2. 展開到「電腦設定」→「系統管理範本」→「Windows 元件」→「自動播放原則」。
 3. 在右邊窗格中，雙擊「設定 AutoRun 的預設行為」。點選「已啟用」。
 4. 「預設 AutoRun 行為」設為「不執行任何 AutoRun 命令」。
+
+   [[回最上層目錄]](#top)
 <br />
 
-## 啟動「沙盒 SandBox 功能」
+## <a id="sandbox"></a>啟動「沙盒 SandBox」功能
 1. BIOS 中的「虛擬功能」必須「啟動」。
 2. 在「開始」→「設定」→「應用程式」→「選用功能」→「更多 Windows 功能」裡，將「Windows 沙箱」打勾。重新啟動。
+
+   [[回最上層目錄]](#top)
 <br />
