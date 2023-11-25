@@ -216,13 +216,45 @@ date: 2023-11-24
 <br />
 
 ## 關閉自動更新
-* 關閉自動更新使用第三方工具比較方便。
-   * [UH Auto Update Stopper Ver.1.2](https://unikoshardware.com/2021/12/uh-auto-update-stopper-v1-2.html)
-   * [Stop Updates Windows 10 Ver.3.7.2022.07.12](https://www.azofreeware.com/2018/04/stopupdates10.html?m=1)
+關閉自動更新使用第三方工具比較方便。
+1. [UH Auto Update Stopper Ver.1.2](https://unikoshardware.com/2021/12/uh-auto-update-stopper-v1-2.html)
+2. [Stop Updates Windows 10 Ver.3.7.2022.07.12](https://www.azofreeware.com/2018/04/stopupdates10.html?m=1)
 <br />
 
 ## 移除或關閉 Windows Defender
-* [Defender Control Ver.2.1](https://www.sordum.org/9480/defender-control-v2-1/)
-* [UH Auto Update Stopper Ver.1.2](https://unikoshardware.com/2021/12/uh-auto-update-stopper-v1-2.html)
-* Windows Defender Remover Script Ver.10.3.0.0
+1. [Defender Control Ver.2.1](https://www.sordum.org/9480/defender-control-v2-1/)
+2. [UH Auto Update Stopper Ver.1.2](https://unikoshardware.com/2021/12/uh-auto-update-stopper-v1-2.html)
+3. Windows Defender Remover Script Ver.10.3.0.0
+<br />
+
+## 關閉「Windows 安全性通知」
+1. 「開始」→「設定」→「系統」→「通知」照下列順序設定。
+2. 先將「設定」設為「關閉」。
+3. 「啟動應用程式通知」設為「關閉」。
+4. 「其它設定」裡的項目，全部不打勾。
+5. 將「通知」設為「關閉」。
+6. 將「請勿打擾」設為「關閉」。若設為「開啟」，則無法隱藏「通知圖示」。
+7. 「設定優先順序通知」。
+8. 「通話和提醒」下的項目，全部不打勾。
+9. 「應用程式」下的每個「應用程式」，按右邊的「...」→「移除」。
+10. 「Win鍵 + R」輸入「gpedit.msc」開啟「本機群組原則編輯器」展開到「電腦設定→「系統管理範本」→「開始功能表和工作列」→「通知」。
+11. 將「關閉通知網路使用方式」設為「已啟用」。
+<br />
+
+## 隱藏工作列右邊的「通知圖示」
+1. 「Win鍵 + R」輸入「gpedit.msc」開啟「本機群組原則編輯器」。
+2. 展開到「使用者設定」→「系統管理範本」→「開始功能表和工作列」。
+3. 將「移除通知與重要訊息中心」設為「已啟用」。
+<br />
+
+## 關掉「自動播放」
+1. 「Win鍵 + R」輸入「gpedit.msc」開啟「本機群組原則編輯器」。
+2. 展開到「電腦設定」→「系統管理範本」→「Windows 元件」→「自動播放原則」。
+3. 在右邊窗格中，雙擊「設定 AutoRun 的預設行為」。點選「已啟用」。
+4. 「預設 AutoRun 行為」設為「不執行任何 AutoRun 命令」。
+<br />
+
+## 啟動「沙盒 SandBox 功能」
+1. BIOS 中的「虛擬功能」必須「啟動」。
+2. 在「開始」→「設定」→「應用程式」→「選用功能」→「更多 Windows 功能」裡，將「Windows 沙箱」打勾。重新啟動。
 <br />
