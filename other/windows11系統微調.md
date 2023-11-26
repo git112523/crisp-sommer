@@ -339,3 +339,18 @@ date: 2023-11-24
 
    [[回最上層目錄]](#top)
 <br />
+
+## <a id="sandbox"></a>啟動 Windows 11
+* 以系統管理員執行命令提示字元。
+* 依序輸入並執行下列命令
+
+  ```Shell
+  slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
+
+  slmgr /skms kms.loli.best
+
+  slmgr /ato
+  ```
+  
+   [[回最上層目錄]](#top)
+<br />
