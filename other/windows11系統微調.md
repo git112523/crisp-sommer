@@ -38,6 +38,7 @@ date: 2023-11-24
 24. [隱藏工作列右邊的「通知圖示」](#close_notifyicon)
 25. [關閉「自動播放」](#close_autoplay)
 26. [啟動「沙盒 SandBox」功能](#sandbox)
+27. [啟動 Windows 11](#startup)
 <br />
 
 ## <a id="local_account"></a>Windows 11 安裝時建立「本機帳號」
@@ -340,7 +341,7 @@ date: 2023-11-24
    [[回最上層目錄]](#top)
 <br />
 
-## <a id="sandbox"></a>啟動 Windows 11
+## <a id="startup"></a>啟動 Windows 11
 * 以系統管理員執行命令提示字元。
 * 依序輸入並執行下列命令
 
