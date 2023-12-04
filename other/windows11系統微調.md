@@ -1,6 +1,6 @@
 ---
 title: Windows 11 密技及系統微調
-date: 2023-11-24
+date: 2023-12-4
 ---
 <br />
 
@@ -38,7 +38,8 @@ date: 2023-11-24
 24. [隱藏工作列右邊的「通知圖示」](#close_notifyicon)
 25. [關閉「自動播放」](#close_autoplay)
 26. [啟動「沙盒 SandBox」功能](#sandbox)
-27. [啟動 Windows 11](#startup)
+27. [啟動 Windows 11](#kms)
+28. [新增和關閉 Windows 開機時自動啟動的程式](#startup)
 <br />
 
 ## <a id="local_account"></a>Windows 11 安裝時建立「本機帳號」
@@ -341,7 +342,7 @@ date: 2023-11-24
    [[回最上層目錄]](#top)
 <br />
 
-## <a id="startup"></a>啟動 Windows 11
+## <a id="kms"></a>啟動 Windows 11
 * 以系統管理員執行命令提示字元。
 * 依序輸入並執行下列命令
 
@@ -353,5 +354,11 @@ date: 2023-11-24
   slmgr /ato
   ```
   
+   [[回最上層目錄]](#top)
+<br />
+
+## <a id="startup"></a>新增和關閉 Windows 開機時自動啟動的程式
+1. 「Win鍵 + R」輸入「shell:startup」找到「啟動」資料夾。
+
    [[回最上層目錄]](#top)
 <br />
