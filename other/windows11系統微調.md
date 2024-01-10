@@ -40,6 +40,7 @@ date: 2023-12-4
 26. [啟動「沙盒 SandBox」功能](#sandbox)
 27. [啟動 Windows 11](#kms)
 28. [新增和關閉 Windows 開機時自動啟動的程式](#startup)
+29. [「Office 啟動」](#office)
 <br />
 
 ## <a id="local_account"></a>Windows 11 安裝時建立「本機帳號」
@@ -359,6 +360,28 @@ date: 2023-12-4
 
 ## <a id="startup"></a>新增和關閉 Windows 開機時自動啟動的程式
 1. 「Win鍵 + R」輸入「shell:startup」找到「啟動」資料夾。
+
+   [[回最上層目錄]](#top)
+<br />
+
+## <a id="office"></a>Office 啟動
+1. [程序員老張](https://youtu.be/Kl1j2GjhaRA?si=BiUF0htHJKCdJnwG)
+2. 官網下載 [Office Deployment Tool。](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbnJIczAyMFdveUdUUkdWZkctY3NJN1NqaUZvZ3xBQ3Jtc0trakFsQ19qWmpUNFNocHpFdE4xQjdmMDJIZ1B3N2pyOGR2WjVZbU5kX3VHNGRuRlkyNUlXTVN0UHJCUzEwVTJaWnNseGN2Z2dtVFV3eXBEUi1HUkxXSHlhekcxdXFMS1VDekZYSThZOUNoVE1Oc2h4Zw&q=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fdownload%2Fdetails.aspx%3Fid%3D49117&v=Kl1j2GjhaRA)
+3. [配置config文件，匯出 xml。](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbGJ3aTNOU2Zfb0oyUXIyMlF5LUVLTEw4Q2NPd3xBQ3Jtc0trTExMWENJNkdiNllFX3NINkU5QmdSMXhWOHFNamN6YUk3aGFpMGZaT0pDeTMtdVJiS3lUUS1VRjJldHR0TUFJT3dRZmF4ay1wSHpYUmxsMHZGclpDaHAwRXpoMFhtd09lYVJQOGVkRlY2UzlnMDJhTQ&q=https%3A%2F%2Fconfig.office.com%2Fdeploymentsettings&v=Kl1j2GjhaRA)
+4. cd c：\office（資料夾目錄）
+   setup.exe /download config.xml
+   setup.exe /configure config.xml
+5. 啟動 cd C:\Program Files(x86)\Microsoft Office\Office16，或者 cd C：\Program Files\Microsoft Office\Office16。
+   cscript ospp.vbs /sethst:kms.03k.org
+   cscript ospp.vbs /act
+6. 備選的 KMS
+   kms.03k.org
+   kms.chinancce.com
+   kms.luody.info
+   kms.lotro.cc
+   kms.luochenzhimu.com
+   kms8.MSGuides.com
+   kms9.MSGuides.com
 
    [[回最上層目錄]](#top)
 <br />
