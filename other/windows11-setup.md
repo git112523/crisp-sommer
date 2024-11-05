@@ -12,36 +12,37 @@ date: 2023-12-4
 <br />
 
 ## <a id="top"></a>Windows 11 密技及系統微調
-1. [Windows 11 安裝時建立「本機帳號」](#local_account)
-2. [變更 Windows 預設輸入法](#IME)
-3. [安裝 Windows 11 略過「TPM 2.0 及 Secure Boot」](#TPM)
-4. [登入「Administrator 帳戶」](#admin_account)
-5. [解除「本機帳號」密碼設置](#account_password)
-6. [關閉「UAC 功能」](#UAC)
-7. [安裝「Net Framework 3.5」](#framework35)
-8. [Windows 11 啟動「安全模式」](#safemode)
-9. [滑鼠右鍵回復為「傳統右鍵表單選項」](#rightclick_original)
-10. [隱藏「檔案總管」本機「下載」](#hide_download)
-11. [隱藏「檔案總管」本機「文件」](#hide_document)
-12. [隱藏「檔案總管」本機「音樂」](#hide_music)
-13. [隱藏「檔案總管」本機「桌面」](#hide_desktop)
-14. [隱藏「檔案總管」本機「圖片」](#hide_picture)
-15. [隱藏「檔案總管」本機「影片」](#hide_movie)
-16. [隱藏「檔案總管」目錄欄中的「常用」](#quick_access)
-17. [隱藏「檔案總管」目錄欄中的「OneDrive」](#hide_onedrive)
-18. [隱藏「檔案總管」目錄欄中的「網路」](#hide_network)
-19. [開始面板下方「電源開關」旁加入「設定、檔案總管」的捷徑](#powerkey_shortcut)
-20. [關閉工具列的預覽功能](#close_thumbnail)
-21. [關閉自動更新](#close_update)
-22. [移除或關閉 Windows Defender](#close_defender)
-23. [關閉「Windows 安全性通知」](#close_safenotify)
-24. [隱藏工作列右邊的「通知圖示」](#close_notifyicon)
-25. [關閉「自動播放」](#close_autoplay)
-26. [啟動「沙盒 SandBox」功能](#sandbox)
-27. [啟動 Windows 11](#kms)
-28. [新增和關閉 Windows 開機時自動啟動的程式](#startup)
-29. [「Office 啟動」](#office)
-<br />
+- [Windows 11 密技及系統微調](#windows-11-密技及系統微調)
+- [Windows 11 安裝時建立「本機帳號」](#windows-11-安裝時建立本機帳號)
+- [變更 Windows 預設輸入法](#變更-windows-預設輸入法)
+- [安裝 Windows 11 略過「TPM 2.0 及 Secure Boot」](#安裝-windows-11-略過tpm-20-及-secure-boot)
+- [登入「Administrator 帳戶」](#登入administrator-帳戶)
+- [解除「本機帳號」密碼設置](#解除本機帳號密碼設置)
+- [關閉「UAC 功能」](#關閉uac-功能)
+- [安裝「Net Framework 3.5」](#安裝net-framework-35)
+- [Windows 11 啟動「安全模式」](#windows-11-啟動安全模式)
+- [滑鼠右鍵回復為「傳統右鍵表單選項」](#滑鼠右鍵回復為傳統右鍵表單選項)
+- [隱藏「檔案總管」本機「下載」](#隱藏檔案總管本機下載)
+- [隱藏「檔案總管」本機「文件」](#隱藏檔案總管本機文件)
+- [隱藏「檔案總管」本機「音樂」](#隱藏檔案總管本機音樂)
+- [隱藏「檔案總管」本機「桌面」](#隱藏檔案總管本機桌面)
+- [隱藏「檔案總管」本機「圖片」](#隱藏檔案總管本機圖片)
+- [隱藏「檔案總管」本機「影片」](#隱藏檔案總管本機影片)
+- [隱藏「檔案總管」目錄欄中的「常用」](#隱藏檔案總管目錄欄中的常用)
+- [隱藏「檔案總管」目錄欄中的「OneDrive」](#隱藏檔案總管目錄欄中的onedrive)
+- [隱藏「檔案總管」目錄欄中的「網路」](#隱藏檔案總管目錄欄中的網路)
+- [開始面板下方「電源開關」旁加入「設定、檔案總管」的捷徑](#開始面板下方電源開關旁加入設定檔案總管的捷徑)
+- [關閉工具列的預覽功能](#關閉工具列的預覽功能)
+- [關閉自動更新](#關閉自動更新)
+- [移除或關閉 Windows Defender](#移除或關閉-windows-defender)
+- [關閉「Windows 安全性通知」](#關閉windows-安全性通知)
+- [隱藏工作列右邊的「通知圖示」](#隱藏工作列右邊的通知圖示)
+- [關閉「自動播放」](#關閉自動播放)
+- [啟動「沙盒 SandBox」功能](#啟動沙盒-sandbox功能)
+- [啟動 Windows 11](#啟動-windows-11)
+- [新增和關閉 Windows 開機時自動啟動的程式](#新增和關閉-windows-開機時自動啟動的程式)
+- [Office 啟動](#office-啟動)
+- [檔案總管「快速存取」功能無法使用](#檔案總管快速存取功能無法使用)
 
 ## <a id="local_account"></a>Windows 11 安裝時建立「本機帳號」
 
@@ -382,6 +383,20 @@ date: 2023-12-4
    kms.luochenzhimu.com
    kms8.MSGuides.com
    kms9.MSGuides.com
+
+   [[回最上層目錄]](#top)
+<br />
+
+## <a id="quickaccess"></a>檔案總管「快速存取」功能無法使用
+1. 開啟檔案總管
+2. 在網址列貼上以下連結
+   ```Shell
+   %AppData%\Microsoft\Windows\Recent\AutomaticDestinations
+   %AppData%\Microsoft\Windows\Recent\CustomDestinations  
+   ```
+   刪除2個資料夾裡的所有檔案(如果怕有問題，可以先把它複製到別的地方)
+
+- [參考網址](https://answers.microsoft.com/zh-hant/windows/forum/all/win10%E6%AA%94%E6%A1%88%E7%B8%BD%E7%AE%A1%E7%9A%84/a2402019-d7aa-42cc-9eb6-600b885111c5)
 
    [[回最上層目錄]](#top)
 <br />
