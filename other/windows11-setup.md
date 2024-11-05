@@ -11,7 +11,7 @@ date: 2023-12-4
 > 真正有重大變革應該放在 Windows 12 上，因為可以預期的加上大量 AI 運用，倒是可以期待。
 <br />
 
-## <a id="top"></a>Windows 11 密技及系統微調
+## Windows 11 密技及系統微調
 - [Windows 11 密技及系統微調](#windows-11-密技及系統微調)
 - [Windows 11 安裝時建立「本機帳號」](#windows-11-安裝時建立本機帳號)
 - [變更 Windows 預設輸入法](#變更-windows-預設輸入法)
@@ -44,7 +44,7 @@ date: 2023-12-4
 - [Office 啟動](#office-啟動)
 - [檔案總管「快速存取」功能無法使用](#檔案總管快速存取功能無法使用)
 
-## <a id="local_account"></a>Windows 11 安裝時建立「本機帳號」
+## Windows 11 安裝時建立「本機帳號」
 
 1. 安裝前先拔除網路線，當安裝到「讓我們將您連線到網路 Let's connect you to a network」畫面時，按「Shift + F10」打開「命令提示字元」，鍵入 **oobe\bypassnro** 按 Enter，之後會自動重新開機，繼續安裝。
 2. 一樣安裝到「讓我們將您連線到網路」畫面時，就會有「我沒有網際網路 I don't have internet」選項，點選「進行有限的安裝 Continue with limited setup」。
@@ -53,7 +53,7 @@ date: 2023-12-4
    [[回最上層目錄]](#top)
 <br />
 
-## <a id="IME"></a>變更 Windows 預設輸入法
+## 變更 Windows 預設輸入法
 
 1. 安裝慣用的輸入法如：「自然輸入法」，如果沒有可以跳過此步驟。
 2. 點擊工具列上輸入法圖示「語言喜好設定」→ 「新增慣用語言」。
@@ -66,14 +66,14 @@ date: 2023-12-4
    [[回最上層目錄]](#top)
 <br />
 
-## <a id="TPM"></a>安裝 Windows 11 略過「TPM 2.0 及 Secure Boot」
+## 安裝 Windows 11 略過「TPM 2.0 及 Secure Boot」
 
 * 使用 [Rufus - 輕鬆製作可開機的USB 磁碟機](https://rufus.ie/zh_TW/)，製作可開機 USB，有進階選單可選。
 
    [[回最上層目錄]](#top)
 <br />
 
-## <a id="admin_account"></a>登入「Administrator 帳戶」
+## 登入「Administrator 帳戶」
 1. 按「Win + R」輸入「lusrmgr.msc」按確定。
 2. 跳出「本機使用者和群組」先點選左方窗格的「使用者」，再按兩下中央窗格的「Administrator」
 3. 跳出「Administrator 內容」對話盒，取消勾選「帳戶已停用」，按確定。
@@ -82,7 +82,7 @@ date: 2023-12-4
    [[回最上層目錄]](#top)
 <br />
 
-## <a id="account_password"></a>解除「本機帳號」密碼設置
+## 解除「本機帳號」密碼設置
 1. 「設定」→「帳戶」→「登入選項」→「密碼」→「變更」。
 2. 畫面「輸入目前密碼」，若沒有則維持空白。
 3. 畫面「變更您的密碼」，保持空白不要輸入，下一步，這就是解除密碼。
@@ -91,13 +91,13 @@ date: 2023-12-4
    [[回最上層目錄]](#top)
 <br />
 
-## <a id="UAC"></a>關閉「UAC 功能」
+## 關閉「UAC 功能」
 * 「控制台」→「使用者帳戶」→「變更使用者帳戶控制設定」，將拉桿拉到最下面。
 
    [[回最上層目錄]](#top)
 <br />
 
-## <a id="framework35"></a>安裝「Net Framework 3.5」
+## 安裝「Net Framework 3.5」
 1. 掛載 Windows 11 的安裝 ISO 檔案，假設掛載於 「G：」。
 2. 以「系統管理員身份執行」開啟「命令提示字元」，輸入以下命令並執行。
 
@@ -111,7 +111,7 @@ date: 2023-12-4
    [[回最上層目錄]](#top)
 <br />
 
-## <a id="safemode"></a>Windows 11 啟動「安全模式」
+## Windows 11 啟動「安全模式」
 1. 按住「Shift」鍵不放，再點「開始」→「電源」→「重新啟動」。
 2. 出現「選擇選項」→「疑難排解」→「進階選項」→「啟動設定」→「重新啟動」。
 3. 重新開機到「啟動設定」頁面，選「啟用安全模式」。
@@ -119,7 +119,7 @@ date: 2023-12-4
    [[回最上層目錄]](#top)
 <br />
 
-## <a id="rightclick_original"></a>滑鼠右鍵回復為「傳統右鍵表單選項」
+## 滑鼠右鍵回復為「傳統右鍵表單選項」
 1. 以「系統管理員身份執行」開啟「命令提示字元」，輸入以下命令並執行。
 
    ```Shell
@@ -138,7 +138,7 @@ date: 2023-12-4
    [[回最上層目錄]](#top)
 <br />
 
-## <a id="hide_download"></a>隱藏「檔案總管」本機「下載」
+## 隱藏「檔案總管」本機「下載」
 1. 「Win鍵 + R」輸入「regedit」開啟「登錄檔編輯程式」，找到下列登錄碼。
 
    ```Shell
@@ -150,7 +150,7 @@ date: 2023-12-4
    [[回最上層目錄]](#top)
 <br />
 
-## <a id="hide_document"></a>隱藏「檔案總管」本機「文件」
+## 隱藏「檔案總管」本機「文件」
 1. 「Win鍵 + R」輸入「regedit」開啟「登錄檔編輯程式」，找到下列登錄碼。
 
    ```Shell
@@ -162,7 +162,7 @@ date: 2023-12-4
    [[回最上層目錄]](#top)
 <br />
 
-## <a id="hide_music"></a>隱藏「檔案總管」本機「音樂」
+## 隱藏「檔案總管」本機「音樂」
 1. 「Win鍵 + R」輸入「regedit」開啟「登錄檔編輯程式」，找到下列登錄碼。
 
    ```Shell
@@ -174,7 +174,7 @@ date: 2023-12-4
    [[回最上層目錄]](#top)
 <br />
 
-## <a id="hide_desktop"></a>隱藏「檔案總管」本機「桌面」
+## 隱藏「檔案總管」本機「桌面」
 1. 「Win鍵 + R」輸入「regedit」開啟「登錄檔編輯程式」，找到下列登錄碼。
 
    ```Shell
@@ -189,7 +189,7 @@ date: 2023-12-4
    [[回最上層目錄]](#top)
 <br />
 
-## <a id="hide_picture"></a>隱藏「檔案總管」本機「圖片」
+## 隱藏「檔案總管」本機「圖片」
 1. 「Win鍵 + R」輸入「regedit」開啟「登錄檔編輯程式」，找到下列登錄碼。
 
    ```Shell
@@ -201,7 +201,7 @@ date: 2023-12-4
    [[回最上層目錄]](#top)
 <br />
 
-## <a id="hide_movie"></a>隱藏「檔案總管」本機「影片」
+## 隱藏「檔案總管」本機「影片」
 1. 「Win鍵 + R」輸入「regedit」開啟「登錄檔編輯程式」，找到下列登錄碼。
 
    ```Shell
@@ -213,7 +213,7 @@ date: 2023-12-4
    [[回最上層目錄]](#top)
 <br />
 
-## <a id="quick_access"></a>隱藏「檔案總管」目錄欄中的「常用」
+## 隱藏「檔案總管」目錄欄中的「常用」
 1. 「Win鍵 + R」輸入「regedit」開啟「登錄檔編輯程式」，找到下列登錄碼。
 
    ```Shell
@@ -228,7 +228,7 @@ date: 2023-12-4
    [[回最上層目錄]](#top)
 <br />
 
-## <a id="hide_onedrive"></a>隱藏「檔案總管」目錄欄中的「OneDrive」
+## 隱藏「檔案總管」目錄欄中的「OneDrive」
 1. 「Win鍵 + R」輸入「regedit」開啟「登錄檔編輯程式」，找到下列登錄碼。
 
    ```Shell
@@ -240,7 +240,7 @@ date: 2023-12-4
    [[回最上層目錄]](#top)
 <br />
 
-## <a id="hide_network"></a>隱藏「檔案總管」目錄欄中的「網路」
+## 隱藏「檔案總管」目錄欄中的「網路」
 1. 「Win鍵 + R」輸入「regedit」開啟「登錄檔編輯程式」，找到下列登錄碼。
 
    ```Shell
@@ -256,14 +256,14 @@ date: 2023-12-4
    [[回最上層目錄]](#top)
 <br />
 
-## <a id="powerkey_shortcut"></a>開始面板下方「電源開關」旁加入「設定、檔案總管」的捷徑
+## 開始面板下方「電源開關」旁加入「設定、檔案總管」的捷徑
 1. 「開始」→「設定」→「個人化」→「開始」→「資料夾 Folders」。
 2. 將要加入的捷徑，如「設定」或「檔案總管」設為「開啟」。
 
    [[回最上層目錄]](#top)
 <br />
 
-## <a id="close_thumbnail"></a>關閉工具列的預覽功能
+## 關閉工具列的預覽功能
 1. 「Win鍵 + R」輸入「regedit」開啟「登錄檔編輯程式」，找到下列登錄碼。
 
    ```Shell
@@ -288,7 +288,7 @@ date: 2023-12-4
     [[回最上層目錄]](#top)
 <br />
 
-## <a id="close_update"></a>關閉自動更新
+## 關閉自動更新
 關閉自動更新使用第三方工具比較方便。
 1. [UH Auto Update Stopper Ver.1.2](https://unikoshardware.com/2021/12/uh-auto-update-stopper-v1-2.html)
 2. [Stop Updates Windows 10 Ver.3.7.2022.07.12](https://www.azofreeware.com/2018/04/stopupdates10.html?m=1)
@@ -296,7 +296,7 @@ date: 2023-12-4
    [[回最上層目錄]](#top)
 <br />
 
-## <a id="close_defender"></a>移除或關閉 Windows Defender
+## 移除或關閉 Windows Defender
 1. [Defender Control Ver.2.1](https://www.sordum.org/9480/defender-control-v2-1/)
 2. [UH Auto Update Stopper Ver.1.2](https://unikoshardware.com/2021/12/uh-auto-update-stopper-v1-2.html)
 3. Windows Defender Remover Script Ver.10.3.0.0
@@ -304,7 +304,7 @@ date: 2023-12-4
    [[回最上層目錄]](#top)
 <br />
 
-## <a id="close_safenotify"></a>關閉「Windows 安全性通知」
+## 關閉「Windows 安全性通知」
 1. 「開始」→「設定」→「系統」→「通知」照下列順序設定。
 2. 先將「設定」設為「關閉」。
 3. 「啟動應用程式通知」設為「關閉」。
@@ -320,7 +320,7 @@ date: 2023-12-4
     [[回最上層目錄]](#top)
 <br />
 
-## <a id="close_notifyicon"></a>隱藏工作列右邊的「通知圖示」
+## 隱藏工作列右邊的「通知圖示」
 1. 「Win鍵 + R」輸入「gpedit.msc」開啟「本機群組原則編輯器」。
 2. 展開到「使用者設定」→「系統管理範本」→「開始功能表和工作列」。
 3. 將「移除通知與重要訊息中心」設為「已啟用」。
@@ -328,7 +328,7 @@ date: 2023-12-4
    [[回最上層目錄]](#top)
 <br />
 
-## <a id="close_autoplay"></a>關閉「自動播放」
+## 關閉「自動播放」
 1. 「Win鍵 + R」輸入「gpedit.msc」開啟「本機群組原則編輯器」。
 2. 展開到「電腦設定」→「系統管理範本」→「Windows 元件」→「自動播放原則」。
 3. 在右邊窗格中，雙擊「設定 AutoRun 的預設行為」。點選「已啟用」。
@@ -337,14 +337,14 @@ date: 2023-12-4
    [[回最上層目錄]](#top)
 <br />
 
-## <a id="sandbox"></a>啟動「沙盒 SandBox」功能
+## 啟動「沙盒 SandBox」功能
 1. BIOS 中的「虛擬功能」必須「啟動」。
 2. 在「開始」→「設定」→「應用程式」→「選用功能」→「更多 Windows 功能」裡，將「Windows 沙箱」打勾。重新啟動。
 
    [[回最上層目錄]](#top)
 <br />
 
-## <a id="kms"></a>啟動 Windows 11
+## 啟動 Windows 11
 * 以系統管理員執行命令提示字元。
 * 依序輸入並執行下列命令
 
@@ -359,13 +359,13 @@ date: 2023-12-4
    [[回最上層目錄]](#top)
 <br />
 
-## <a id="startup"></a>新增和關閉 Windows 開機時自動啟動的程式
+## 新增和關閉 Windows 開機時自動啟動的程式
 1. 「Win鍵 + R」輸入「shell:startup」找到「啟動」資料夾。
 
    [[回最上層目錄]](#top)
 <br />
 
-## <a id="office"></a>Office 啟動
+## Office 啟動
 1. [程序員老張](https://youtu.be/Kl1j2GjhaRA?si=BiUF0htHJKCdJnwG)
 2. 官網下載 [Office Deployment Tool。](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbnJIczAyMFdveUdUUkdWZkctY3NJN1NqaUZvZ3xBQ3Jtc0trakFsQ19qWmpUNFNocHpFdE4xQjdmMDJIZ1B3N2pyOGR2WjVZbU5kX3VHNGRuRlkyNUlXTVN0UHJCUzEwVTJaWnNseGN2Z2dtVFV3eXBEUi1HUkxXSHlhekcxdXFMS1VDekZYSThZOUNoVE1Oc2h4Zw&q=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fdownload%2Fdetails.aspx%3Fid%3D49117&v=Kl1j2GjhaRA)
 3. [配置config文件，匯出 xml。](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbGJ3aTNOU2Zfb0oyUXIyMlF5LUVLTEw4Q2NPd3xBQ3Jtc0trTExMWENJNkdiNllFX3NINkU5QmdSMXhWOHFNamN6YUk3aGFpMGZaT0pDeTMtdVJiS3lUUS1VRjJldHR0TUFJT3dRZmF4ay1wSHpYUmxsMHZGclpDaHAwRXpoMFhtd09lYVJQOGVkRlY2UzlnMDJhTQ&q=https%3A%2F%2Fconfig.office.com%2Fdeploymentsettings&v=Kl1j2GjhaRA)
@@ -387,7 +387,7 @@ date: 2023-12-4
    [[回最上層目錄]](#top)
 <br />
 
-## <a id="quickaccess"></a>檔案總管「快速存取」功能無法使用
+## 檔案總管「快速存取」功能無法使用
 1. 開啟檔案總管
 2. 在網址列貼上以下連結
    ```Shell
