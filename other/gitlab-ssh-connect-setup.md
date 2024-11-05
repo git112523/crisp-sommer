@@ -57,6 +57,7 @@ $ git config --global user.email "git112523@gmail.com"
 
 // 觀察目前設定檔
 $ git config --list
+
 ```
 <br />
 
