@@ -370,28 +370,28 @@ date: 2023-12-4
 2. 官網下載 [Office Deployment Tool。](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbnJIczAyMFdveUdUUkdWZkctY3NJN1NqaUZvZ3xBQ3Jtc0trakFsQ19qWmpUNFNocHpFdE4xQjdmMDJIZ1B3N2pyOGR2WjVZbU5kX3VHNGRuRlkyNUlXTVN0UHJCUzEwVTJaWnNseGN2Z2dtVFV3eXBEUi1HUkxXSHlhekcxdXFMS1VDekZYSThZOUNoVE1Oc2h4Zw&q=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fdownload%2Fdetails.aspx%3Fid%3D49117&v=Kl1j2GjhaRA)
 3. [配置config文件，匯出 xml。](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbGJ3aTNOU2Zfb0oyUXIyMlF5LUVLTEw4Q2NPd3xBQ3Jtc0trTExMWENJNkdiNllFX3NINkU5QmdSMXhWOHFNamN6YUk3aGFpMGZaT0pDeTMtdVJiS3lUUS1VRjJldHR0TUFJT3dRZmF4ay1wSHpYUmxsMHZGclpDaHAwRXpoMFhtd09lYVJQOGVkRlY2UzlnMDJhTQ&q=https%3A%2F%2Fconfig.office.com%2Fdeploymentsettings&v=Kl1j2GjhaRA)
 4. 進入資料夾目錄
-   ```DOS
-   :: 資料夾目錄
+   ```dos
+   // 資料夾目錄
    $ cd c：\office
    
-   :: 依照 config.xml 下載到資料夾目錄
+   // 依照 config.xml 下載到資料夾目錄
    $ setup.exe /download config.xml
    
-   :: 依照 config.xml 安裝 office
+   // 依照 config.xml 安裝 office
    $ setup.exe /configure config.xml
    ```
 5. 啟動 office
-   ```DOS
-   cd C:\Program Files(x86)\Microsoft Office\Office16
+   ```dos
+   $ cd C:\Program Files(x86)\Microsoft Office\Office16
    // or
-   cd C：\Program Files\Microsoft Office\Office16。
+   $ cd C：\Program Files\Microsoft Office\Office16。
    
    // sethst: 後面接認證伺服器
-   cscript ospp.vbs /sethst:kms.03k.org
-   cscript ospp.vbs /act
+   $ cscript ospp.vbs /sethst:kms.03k.org
+   $ cscript ospp.vbs /act
    ```
 6. 備選的 KMS
-   ```shell
+   ```dos
    kms.03k.org
    kms.chinancce.com
    kms.luody.info
