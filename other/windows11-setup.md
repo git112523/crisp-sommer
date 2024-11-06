@@ -386,7 +386,7 @@ date: 2023-12-4
    // or
    $ cd C：\Program Files\Microsoft Office\Office16。
    
-   // sethst: 後面接認證伺服器
+   // sethst:(後面接認證伺服器)
    $ cscript ospp.vbs /sethst:kms.03k.org
    $ cscript ospp.vbs /act
    ```
@@ -406,7 +406,7 @@ date: 2023-12-4
 ## 檔案總管「快速存取」功能無法使用
 1. 開啟檔案總管
 2. 在網址列貼上以下連結
-   ```Shell
+   ```dos
    %AppData%\Microsoft\Windows\Recent\AutomaticDestinations
    %AppData%\Microsoft\Windows\Recent\CustomDestinations  
    ```
