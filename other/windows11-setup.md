@@ -11,8 +11,8 @@ date: 2023-12-4
 > 真正有重大變革應該放在 Windows 12 上，因為可以預期的加上大量 AI 運用，倒是可以期待。
 <br />
 
-## Windows 11 密技及系統微調
-- [Windows 11 密技及系統微調](#windows-11-密技及系統微調)
+## Windows 11 密技及系統微調1
+- [Windows 11 密技及系統微調1](#windows-11-密技及系統微調1)
 - [Windows 11 安裝時建立「本機帳號」](#windows-11-安裝時建立本機帳號)
 - [變更 Windows 預設輸入法](#變更-windows-預設輸入法)
 - [安裝 Windows 11 略過「TPM 2.0 及 Secure Boot」](#安裝-windows-11-略過tpm-20-及-secure-boot)
