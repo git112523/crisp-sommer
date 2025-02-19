@@ -11,8 +11,8 @@ date: 2023-12-4
 > 真正有重大變革應該放在 Windows 12 上，因為可以預期的加上大量 AI 運用，倒是可以期待。
 <br />
 
-## Windows 11 密技及系統微調1
-- [Windows 11 密技及系統微調1](#windows-11-密技及系統微調1)
+## Windows 11 密技及系統微調
+- [Windows 11 密技及系統微調](#windows-11-密技及系統微調)
 - [Windows 11 安裝時建立「本機帳號」](#windows-11-安裝時建立本機帳號)
 - [變更 Windows 預設輸入法](#變更-windows-預設輸入法)
 - [安裝 Windows 11 略過「TPM 2.0 及 Secure Boot」](#安裝-windows-11-略過tpm-20-及-secure-boot)
@@ -43,7 +43,9 @@ date: 2023-12-4
 - [新增和關閉 Windows 開機時自動啟動的程式](#新增和關閉-windows-開機時自動啟動的程式)
 - [Office 啟動](#office-啟動)
 - [檔案總管「快速存取」功能無法使用](#檔案總管快速存取功能無法使用)
-- [更新GitHub SSH Key](#更新github-ssh-key)
+- [更新 GitHub SSH Key](#更新-github-ssh-key)
+- [執行竄改猴插件 Edge](#執行竄改猴插件-edge)
+- [移除 windos11 內建 App](#移除-windos11-內建-app)
 
 ## Windows 11 安裝時建立「本機帳號」
 
@@ -418,15 +420,34 @@ date: 2023-12-4
    [[回最上層目錄]](#top)
 <br />
 
-## 更新GitHub SSH Key
+## 更新 GitHub SSH Key
 1. 獲得公鑰
-   ```dos
+   ```powershell
    cat .\id_rsa.pub 
    ```
 2. 將公鑰貼到GitHub
 3. 測試連接
-      ```dos
+   ```powershell
    ssh -T git@github.com 
+   ```
+   [[回最上層目錄]](#top)
+<br />
+
+## 執行竄改猴插件 Edge
+1. 進入瀏覽器插件設定頁面。
+2. 開啟「開發者模式」。
+
+   [[回最上層目錄]](#top)
+<br />
+
+## 移除 windos11 內建 App
+1. 輸入下列命令 (其中「AppName」是您要移除的應用程式名稱)。
+   ```powershell
+   Get-AppxPackage *AppName* | Remove-AppxPackage 
+   ```
+2. 您可以輸入下列命令，以產生 AppNames 清單。
+   ```powershell
+   Get-AppxPackage | ft name, PackageFullName -AutoSize 
    ```
    [[回最上層目錄]](#top)
 <br />
