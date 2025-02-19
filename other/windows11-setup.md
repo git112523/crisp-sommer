@@ -410,7 +410,7 @@ date: 2023-12-4
    %AppData%\Microsoft\Windows\Recent\AutomaticDestinations
    %AppData%\Microsoft\Windows\Recent\CustomDestinations  
    ```
-   刪除2個資料夾裡的所有檔案(如果怕有問題，可以先把它複製到別的地方)
+   刪除 2 個資料夾裡的所有檔案(如果怕有問題，可以先把它複製到別的地方)
 
 - [參考網址](https://answers.microsoft.com/zh-hant/windows/forum/all/win10%E6%AA%94%E6%A1%88%E7%B8%BD%E7%AE%A1%E7%9A%84/a2402019-d7aa-42cc-9eb6-600b885111c5)
 
