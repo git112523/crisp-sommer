@@ -351,7 +351,7 @@ date: 2023-12-4
 * 以系統管理員執行命令提示字元。
 * 依序輸入並執行下列命令
 
-  ```Shell
+  ```powershell
   slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
 
   slmgr /skms kms.loli.best
@@ -373,7 +373,7 @@ date: 2023-12-4
 2. 官網下載 [Office Deployment Tool。](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbnJIczAyMFdveUdUUkdWZkctY3NJN1NqaUZvZ3xBQ3Jtc0trakFsQ19qWmpUNFNocHpFdE4xQjdmMDJIZ1B3N2pyOGR2WjVZbU5kX3VHNGRuRlkyNUlXTVN0UHJCUzEwVTJaWnNseGN2Z2dtVFV3eXBEUi1HUkxXSHlhekcxdXFMS1VDekZYSThZOUNoVE1Oc2h4Zw&q=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fdownload%2Fdetails.aspx%3Fid%3D49117&v=Kl1j2GjhaRA)
 3. [配置config文件，匯出 xml。](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbGJ3aTNOU2Zfb0oyUXIyMlF5LUVLTEw4Q2NPd3xBQ3Jtc0trTExMWENJNkdiNllFX3NINkU5QmdSMXhWOHFNamN6YUk3aGFpMGZaT0pDeTMtdVJiS3lUUS1VRjJldHR0TUFJT3dRZmF4ay1wSHpYUmxsMHZGclpDaHAwRXpoMFhtd09lYVJQOGVkRlY2UzlnMDJhTQ&q=https%3A%2F%2Fconfig.office.com%2Fdeploymentsettings&v=Kl1j2GjhaRA)
 4. 進入資料夾目錄
-   ```dos
+   ```powershell
    // 資料夾目錄
    $ cd c：\office
    
@@ -384,7 +384,7 @@ date: 2023-12-4
    $ setup.exe /configure config.xml
    ```
 5. 啟動 office
-   ```dos
+   ```powershell
    $ cd C:\Program Files(x86)\Microsoft Office\Office16
    // or
    $ cd C：\Program Files\Microsoft Office\Office16。
@@ -394,7 +394,7 @@ date: 2023-12-4
    $ cscript ospp.vbs /act
    ```
 6. 備選的 KMS
-   ```dos
+   ```powershell
    kms.03k.org
    kms.chinancce.com
    kms.luody.info
@@ -409,7 +409,7 @@ date: 2023-12-4
 ## 檔案總管「快速存取」功能無法使用
 1. 開啟檔案總管
 2. 在網址列貼上以下連結
-   ```dos
+   ```powershell
    %AppData%\Microsoft\Windows\Recent\AutomaticDestinations
    %AppData%\Microsoft\Windows\Recent\CustomDestinations  
    ```
