@@ -43,6 +43,7 @@ date: 2023-12-4
 - [新增和關閉 Windows 開機時自動啟動的程式](#新增和關閉-windows-開機時自動啟動的程式)
 - [Office 啟動](#office-啟動)
 - [檔案總管「快速存取」功能無法使用](#檔案總管快速存取功能無法使用)
+- [更新GitHub SSH Key](#更新github-ssh-key)
 
 ## Windows 11 安裝時建立「本機帳號」
 
@@ -414,5 +415,18 @@ date: 2023-12-4
 
 - [參考網址](https://answers.microsoft.com/zh-hant/windows/forum/all/win10%E6%AA%94%E6%A1%88%E7%B8%BD%E7%AE%A1%E7%9A%84/a2402019-d7aa-42cc-9eb6-600b885111c5)
 
+   [[回最上層目錄]](#top)
+<br />
+
+## 更新GitHub SSH Key
+1. 獲得公鑰
+   ```dos
+   cat .\id_rsa.pub 
+   ```
+2. 將公鑰貼到GitHub
+3. 測試連接
+      ```dos
+   ssh -T git@github.com 
+   ```
    [[回最上層目錄]](#top)
 <br />
